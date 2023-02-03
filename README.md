@@ -1,5 +1,13 @@
 # settings
-
+## Prettier
+Пример файла .prettierrc.js
+```js
+module.exports = {
+  trailingComma: "none",  // Конечные запятые
+  endOfLine: 'auto',      // Окончание строк
+  arrowParens: "avoid"    // Отсутствие скобок в стрелочных функциях
+};
+```
 ## JSHint
 Пример файла .jshintrc    
 При помощи этих опций можно задавать стилистику кода и задавать определенные условия по работе плагина
